@@ -34,7 +34,7 @@ class CaptureIpTrait {
         }
         else
         {
-            $ipAddress = 'UNKNOWN';
+            $ipAddress = '0.0.0.0';
         }
         return $ipAddress;
     }
